@@ -5,6 +5,7 @@
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 :root {
   --bs-primary: #3ba5dc;
   --bs-secondary: #8392ab;
@@ -14099,6 +14100,20 @@ body {
 
 main {
   flex-grow: 1;
+}
+
+.custom-font {
+  font-family: "Bebas Neue", cursive;
+}
+
+.poke-scroll {
+  height: 85vh;
+}
+
+.imgclass {
+  object-fit: cover;
+  height: 20px;
+  width: 20px;
 }
 
 /*# sourceMappingURL=main.css.map */

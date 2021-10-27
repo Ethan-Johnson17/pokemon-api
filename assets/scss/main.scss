@@ -3,6 +3,7 @@
 @import "./_overrides.scss";
 @import "./custom.scss";
 @import "./loaders.scss";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 body {
   display: flex;
@@ -15,5 +16,17 @@ main {
   flex-grow: 1;
 }
 
+.custom-font {
+  font-family: 'Bebas Neue', cursive;
+}
 
+.poke-scroll {
+  height: 85vh;
+  // overflow-y: scroll;
+}
 
+.imgclass {
+  object-fit: cover;
+  height: 20px;
+  width: 20px;
+}
