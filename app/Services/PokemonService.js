@@ -18,6 +18,12 @@ class PokemonService {
         ProxyState.activePokemon = poke
     }
 
+    async catchPokemon() {
+        ProxyState.caughtPokemon.find(p => p.name == ProxyState.activePokemon.name)
+        const res = await sandboxApi.post
+    }
+
+
     setActive(name) {
         const poke = ProxyState.caughtPokemon.find(p => p.name == name)
         ProxyState.activePokemon = poke

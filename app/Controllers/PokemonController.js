@@ -50,6 +50,15 @@ export class PokemonController {
         }
     }
 
+    async catchPokemon() {
+        try {
+            await pokemonService.catchPokemon()
+            toast('Caught Pokemon!', 'success')
+        } catch (error) {
+            toast(error.message, 'error')
+        }
+    }
+
     async getPokemonByName(name) {
         try {
             await pokemonService.getPokemonByName(name)

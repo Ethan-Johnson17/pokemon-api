@@ -14108,6 +14108,7 @@ main {
 
 .poke-scroll {
   height: 85vh;
+  overflow-y: scroll;
 }
 
 .imgclass {
